@@ -1,0 +1,49 @@
+.list-page{
+    display: flex;
+    justify-content: flex-start;
+    .rightside{
+        flex: 0 0 30%;
+        padding: 1em;
+    }
+    .leftside{
+        flex: 0 0 70%;
+        padding: 1em 0;
+    }
+}
+.list-table{
+    width: 100%;
+    border: 1px solid var(--main-lighter);
+    border-radius: 0.2em;
+    color: var(--main-light);
+   thead tr{
+        background-color: var(--main-color);
+        color: #fff;
+        border-radius: 0.2em; 
+        th{
+            cursor: pointer;
+        }  
+    }
+    tbody tr:hover{
+        background-color: var(--main-lighter);
+    }
+    td{
+        cursor: pointer;
+    }
+    a{
+        color: var(--main-color);
+        font-weight: 600
+        }
+}
+.item-box{
+    .item{
+        padding-bottom: 1em;
+        .bold{
+            font-weight: 700;
+            color: var(--main-color)
+        }
+        span{
+            color: var(--main-light);
+        }
+    }
+    
+}
